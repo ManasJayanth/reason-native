@@ -1,0 +1,5 @@
+(library
+   (name Common)
+   (public_name reason-native-common)
+   (libraries pastel.lib)
+  )

@@ -1,0 +1,14 @@
+(library
+  (name Tests)
+  (public_name reason-native-tests)
+  ; IMPORTANT: -linkall flag is required to include all tests.
+  (ocamlopt_flags -linkall -g)
+  (libraries
+    rely.lib
+    pastel.lib
+    console.lib
+    pastel-console.lib
+  )
+)
+(include_subdirs unqualified)
+(dirs :standard __tests__)

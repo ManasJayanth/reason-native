@@ -1,7 +1,6 @@
 (library
    (name Rely)
    (public_name rely.lib)
-   (libraries pastel.lib file-context-printer.lib unix)
+   (libraries pastel.lib file-context-printer.lib reason-native-common unix)
 )
-(copy_files# ../../common/*)
 (include_subdirs unqualified)

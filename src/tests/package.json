@@ -1,0 +1,17 @@
+{
+  "name": "@reason-native/common",
+  "version": "0.0.0",
+  "license": "MIT",
+  "esy": {
+    "build": "dune build -p reason-native-tests"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@esy-ocaml/reason": "*",
+    "@reason-native/pastel": "*",
+    "@reason-native/pastel-console": "*",
+    "@reason-native/console": "*",
+    "@reason-native/rely": "*",
+    "ocaml": ">= 4.2.0  <= 4.7.0"
+  }
+}
