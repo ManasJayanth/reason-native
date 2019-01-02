@@ -2,7 +2,7 @@
   (package reason-native-tests)
   (name ReasonNativeTests)
   (public_name ReasonNativeTests.exe)
-  (ocamlopt_flags -g)
+  (flags (:standard -warn-error -a-27-9 -g))
   (libraries
     reason-native-tests
   )

@@ -2,4 +2,5 @@
    (name Common)
    (public_name reason-native-common)
    (libraries pastel.lib)
+   (flags (:standard -warn-error -a-27-9))
   )

@@ -1,12 +1,12 @@
 {
-  "name": "@reason-native/common",
+  "name": "@reason-native/reason-native-common",
   "version": "0.0.0",
   "license": "MIT",
   "esy": {
-    "build": "dune build -p reason-native-common"
+    "build": "esydune build"
   },
   "dependencies": {
-    "@opam/dune": "*",
+    "@esy-ocaml/esydune": "*",
     "@esy-ocaml/reason": "*",
     "@reason-native/pastel": "*",
     "ocaml": ">= 4.2.0  <= 4.7.0"

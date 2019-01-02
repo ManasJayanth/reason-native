@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "My Project",
   "esy": {
-    "build": "refmterr dune build -p pastel-console",
-    "install": "esy-installer pastel-console.install"
+    "build": "esydune build",
+    "buildDev": "refmterr esydune build"
   },
   "scripts": {
     "test": "esy x TestPastelConsole.exe",
@@ -13,9 +13,11 @@
   "dependencies": {
     "@reason-native/console": "*",
     "@reason-native/pastel": "*",
-    "@opam/dune": "*",
+    "@esy-ocaml/esydune": "*",
     "@esy-ocaml/reason": "*",
-    "refmterr": "*",
     "ocaml": ">= 4.2.0  <= 4.7.0"
+  },
+  "devDependencies": {
+    "refmterr": "*"
   }
 }

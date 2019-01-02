@@ -4,8 +4,7 @@
   "description": "No effort, universal logger",
   "license": "MIT",
   "esy": {
-    "build": "dune build -p console",
-    "install": "esy-installer console.install"
+    "build": "esydune build"
   },
   "scripts": {
     "test": "esy x TestConsole.exe",
@@ -14,7 +13,7 @@
     "release": "node ./scripts/esy-prepublish.js console.json"
   },
   "dependencies": {
-    "@opam/dune": "*",
+    "@esy-ocaml/esydune": "*",
     "@esy-ocaml/reason": "^3.3.0",
     "ocaml": ">= 4.2.0  <= 4.7.0"
   }

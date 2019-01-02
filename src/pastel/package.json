@@ -38,15 +38,14 @@
     "native"
   ],
   "esy": {
-    "build": "dune build -p pastel",
-    "install": "esy-installer pastel.install"
+    "build": "esydune build"
   },
   "scripts": {
     "test": "esy x TestPastel.exe",
     "release": "node ./scripts/esy-prepublish.js pastel.json"
   },
   "dependencies": {
-    "@opam/dune": "*",
+    "@esy-ocaml/esydune": "*",
     "@esy-ocaml/reason": "*",
     "ocaml": ">= 4.2.0  <= 4.7.0"
   }

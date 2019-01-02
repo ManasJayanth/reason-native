@@ -14,7 +14,7 @@
     "@reason-native/pastel": "*",
     "@reason-native/pastel-console": "*",
     "@reason-native/rely": "*",
-    "@reason-native/tests": "*",
+    "@reason-native/reason-native-tests": "*",
     "refmterr": "*"
   },
   "resolutions": {
@@ -23,9 +23,10 @@
     "@reason-native/pastel": "link-dev:./src/pastel/package.json",
     "@reason-native/pastel-console": "link-dev:./src/pastel-console/package.json",
     "@reason-native/rely": "link-dev:./src/rely/package.json",
-    "@reason-native/common": "link-dev:./src/common/package.json",
-    "@reason-native/tests": "link-dev:./src/tests/package.json",
-    "refmterr": "link-dev:./src/refmterr/package.json"
+    "@reason-native/reason-native-common": "link-dev:./src/common/package.json",
+    "@reason-native/reason-native-tests": "link-dev:./src/tests/package.json",
+    "refmterr": "link-dev:./src/refmterr/package.json",
+    "@esy-ocaml/esydune": "github:esy-ocaml/esydune#0126f461"
   },
   "devDependencies": {
     "@opam/merlin": "*",

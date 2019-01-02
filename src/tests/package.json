@@ -1,17 +1,21 @@
 {
-  "name": "@reason-native/common",
+  "name": "@reason-native/reason-native-tests",
   "version": "0.0.0",
   "license": "MIT",
   "esy": {
-    "build": "dune build -p reason-native-tests"
+    "buildDev": "esydune build",
+    "build": "refmterr esydune build"
   },
   "dependencies": {
-    "@opam/dune": "*",
+    "@esy-ocaml/esydune": "*",
     "@esy-ocaml/reason": "*",
     "@reason-native/pastel": "*",
     "@reason-native/pastel-console": "*",
     "@reason-native/console": "*",
     "@reason-native/rely": "*",
     "ocaml": ">= 4.2.0  <= 4.7.0"
+  },
+  "devDependencies": {
+    "refmterr": "*"
   }
 }

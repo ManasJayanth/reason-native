@@ -3,21 +3,20 @@
   "version": "3.1.7",
   "description": "Reason Formatting of Errors",
   "dependencies": {
-    "@opam/dune": "*",
     "@opam/re": "*",
+    "@esy-ocaml/esydune": "*",
     "@esy-ocaml/reason": "^3.0.0",
     "ocaml": " >= 4.2.0  < 4.8.0",
     "@reason-native/pastel": "*",
     "@opam/atdgen": "*",
     "@reason-native/console": "*",
-    "@reason-native/common": "*"
+    "@reason-native/reason-native-common": "*"
   },
   "author": {
     "name": "chenglou"
   },
   "esy": {
-    "build": "dune build -p refmterr",
-    "install": "esy-installer refmterr.install"
+    "build": "esydune build"
   },
   "scripts": {
     "test": "esy src/refmterr/runTests.cmd",
